@@ -1,0 +1,46 @@
+{
+  "fill-specializations": [
+    {
+      "value": {
+        "linear-gradient": [
+          "extended-srgb:0.075,0.46,0.59,1",
+          "extended-srgb:0.055,0.235,0.46,1"
+        ]
+      }
+    },
+    {
+      "appearance": "dark",
+      "value": {
+        "linear-gradient": [
+          "extended-srgb:0.045,0.28,0.39,1",
+          "extended-srgb:0.035,0.115,0.27,1"
+        ]
+      }
+    }
+  ],
+  "groups": [
+    {
+      "name": "Signal on a perch",
+      "lighting": "combined",
+      "specular": true,
+      "layers": [
+        {
+          "name": "Signal",
+          "image-name": "Signal.svg",
+          "glass": true
+        }
+      ],
+      "shadow": {
+        "kind": "neutral",
+        "opacity": 0.3
+      },
+      "translucency": {
+        "enabled": true,
+        "value": 0.16
+      }
+    }
+  ],
+  "supported-platforms": {
+    "squares": "shared"
+  }
+}
