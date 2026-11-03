@@ -2,7 +2,7 @@
 
 <p align="center">Track public service status from your Mac’s menu bar.</p>
 
-<p align="center"><img src="Brand/Signalperch.icon/Assets/Signal.svg" width="72" alt="Signalperch icon"></p>
+<p align="center"><img src="docs/assets/App_Icon.png" width="72" alt="Signalperch icon"></p>
 
 <h2 align="center">Download</h2>
 
