@@ -1,18 +1,18 @@
-# Signalperch
+<h1 align="center">Signalperch</h1>
 
-Track public service status from your Mac’s menu bar.
+<p align="center">Track public service status from your Mac’s menu bar.</p>
 
-<img src="Brand/Signalperch.icon/Assets/Signal.svg" width="72" alt="Signalperch icon">
+<p align="center"><img src="Brand/Signalperch.icon/Assets/Signal.svg" width="72" alt="Signalperch icon"></p>
 
-## Download
+<h2 align="center">Download</h2>
 
-<p>
+<p align="center">
 <a href="https://github.com/Kian-hdr/signalperch/releases/download/v0.3.1/Signalperch_0.3.1_arm64.dmg"><img src="docs/assets/downloads/download_1.svg" width="240" height="48" alt="Download for macOS"></a>
 </p>
 
-[DMG · Preview · Apple silicon · v0.3.1 · macOS 14 or later](https://github.com/Kian-hdr/signalperch/releases/download/v0.3.1/Signalperch_0.3.1_arm64.dmg)
+<p align="center"><a href="https://github.com/Kian-hdr/signalperch/releases/download/v0.3.1/Signalperch_0.3.1_arm64.dmg">DMG · Preview · Apple silicon · v0.3.1 · macOS 14 or later</a></p>
 
-[Install with Homebrew](#installation) · [Preview release notes](https://github.com/Kian-hdr/signalperch/releases/tag/v0.3.1)
+<p align="center"><a href="#installation">Install with Homebrew</a> · <a href="https://github.com/Kian-hdr/signalperch/releases/tag/v0.3.1">Preview release notes</a></p>
 
 A native macOS menu bar monitor for public service status. Built by Kian Konrad Tajbakhsh.
 
