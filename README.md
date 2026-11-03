@@ -2,6 +2,16 @@
 
 A native macOS menu bar monitor for public service status. Built by Kian Konrad Tajbakhsh.
 
+## Download
+
+<p>
+<a href="https://github.com/Kian-hdr/signalperch/releases/download/v0.3.1/Signalperch_0.3.1_arm64.dmg"><img src="docs/assets/downloads/download_1.svg" width="240" height="48" alt="Download for macOS"></a>
+</p>
+
+[DMG · Preview · Apple silicon · v0.3.1 · macOS 14 or later](https://github.com/Kian-hdr/signalperch/releases/download/v0.3.1/Signalperch_0.3.1_arm64.dmg)
+
+[Install with Homebrew](#installation) · [Preview release notes](https://github.com/Kian-hdr/signalperch/releases/tag/v0.3.1)
+
 Requires macOS 14 or later. The first enabled service in your saved order controls the menu bar icon. Reorder services using their drag grips or accessibility actions. OpenAI, Claude, GitHub, Cloudflare, Supabase and Vercel are enabled by default; Stripe is available in Settings.
 
 - Monochrome service marks with status symbols and color badges.
@@ -12,17 +22,15 @@ Requires macOS 14 or later. The first enabled service in your saved order contro
 
 Public feeds describe aggregate provider status, which can lag incidents and cannot diagnose your individual account or connection. Polling pauses while the Mac sleeps. Notification banners depend on macOS permission and Focus settings.
 
-## Install preview
-
-[![Download preview DMG · Apple silicon](https://img.shields.io/badge/Download%20preview%20DMG%20%C2%B7%20Apple%20silicon-24292F?style=for-the-badge&logo=apple&logoColor=white)](https://github.com/Kian-hdr/signalperch/releases/download/v0.3.1/Signalperch_0.3.1_arm64.dmg) [![Install with Homebrew](https://img.shields.io/badge/Install%20with%20Homebrew-8A4B20?style=for-the-badge&logo=homebrew&logoColor=white)](#install-preview)
-
-[Download preview DMG](https://github.com/Kian-hdr/signalperch/releases/download/v0.3.1/Signalperch_0.3.1_arm64.dmg) · [Preview release notes](https://github.com/Kian-hdr/signalperch/releases/tag/v0.3.1)
+## Installation
 
 Open the signed and notarized DMG and drag the app to Applications, or install the same DMG using Homebrew:
 
 ```sh
 brew install --cask kian-hdr/tap/signalperch-preview
 ```
+
+If Homebrew asks you to trust the cask, run `brew tap kian-hdr/tap` and `brew trust --cask kian-hdr/tap/signalperch-preview`, then retry.
 
 This preview is for Apple silicon Macs running macOS 14 or later. It has passed a basic launch check. See [validation and limitations](#validation-and-limitations) for provider, notification, and sleep/wake coverage.
 
