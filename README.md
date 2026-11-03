@@ -12,6 +12,20 @@ Requires macOS 14 or later. The first enabled service in your saved order contro
 
 Public feeds describe aggregate provider status, which can lag incidents and cannot diagnose your individual account or connection. Polling pauses while the Mac sleeps. Notification banners depend on macOS permission and Focus settings.
 
+## Install preview
+
+[![Download preview DMG · Apple silicon](https://img.shields.io/badge/Download%20preview%20DMG%20%C2%B7%20Apple%20silicon-24292F?style=for-the-badge&logo=apple&logoColor=white)](https://github.com/Kian-hdr/signalperch/releases/download/v0.3.1/Signalperch_0.3.1_arm64.dmg) [![Install with Homebrew](https://img.shields.io/badge/Install%20with%20Homebrew-8A4B20?style=for-the-badge&logo=homebrew&logoColor=white)](#install-preview)
+
+[Download preview DMG](https://github.com/Kian-hdr/signalperch/releases/download/v0.3.1/Signalperch_0.3.1_arm64.dmg) · [Preview release notes](https://github.com/Kian-hdr/signalperch/releases/tag/v0.3.1)
+
+Open the signed and notarized DMG and drag the app to Applications, or install the same DMG using Homebrew:
+
+```sh
+brew install --cask kian-hdr/tap/signalperch-preview
+```
+
+This preview is for Apple silicon Macs running macOS 14 or later. It has passed a basic launch check. See [validation and limitations](#validation-and-limitations) for provider, notification, and sleep/wake coverage.
+
 ## Build
 
 Install full Xcode (the app icon build uses Icon Composer) and select it with xcode-select. Swift 6 or later is required.
