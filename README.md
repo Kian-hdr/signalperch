@@ -31,10 +31,10 @@ Public feeds describe aggregate provider status, which can lag incidents and can
 Open the signed and notarized DMG and drag the app to Applications, or install the same DMG using Homebrew:
 
 ```sh
-brew install --cask kian-hdr/tap/signalperch-preview
+brew install --cask kian-hdr/apps/signalperch-preview
 ```
 
-If Homebrew asks you to trust the cask, run `brew tap kian-hdr/tap` and `brew trust --cask kian-hdr/tap/signalperch-preview`, then retry.
+If Homebrew asks you to trust the cask, run `brew tap kian-hdr/apps` and `brew trust --cask kian-hdr/apps/signalperch-preview`, then retry.
 
 This preview is for Apple silicon Macs running macOS 14 or later. It has passed a basic launch check. See [validation and limitations](#validation-and-limitations) for provider, notification, and sleep/wake coverage.
 
