@@ -14,7 +14,7 @@
 
 <p align="center"><a href="#installation">Install with Homebrew</a> · <a href="https://github.com/Kian-hdr/signalperch/releases/tag/v0.3.1">Preview release notes</a></p>
 
-A native macOS menu bar monitor for public service status. Built by Kian Konrad Tajbakhsh.
+A native macOS menu bar monitor for public service status. Built by Kian Konrad.
 
 Requires macOS 14 or later. The first enabled service in your saved order controls the menu bar icon. Reorder services using their drag grips or accessibility actions. OpenAI, Claude, GitHub, Cloudflare, Supabase and Vercel are enabled by default; Stripe is available in Settings.
 
