@@ -1,10 +1,13 @@
-<h1 align="center">Signalperch</h1>
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="docs/assets/README_Wordmark_Dark.svg">
+    <img src="docs/assets/README_Wordmark_Light.svg" width="212" height="42" alt="Signalperch">
+  </picture>
+</p>
 
 <p align="center">Track public service status from your Mac’s menu bar.</p>
 
 <p align="center"><img src="docs/assets/App_Icon.png" width="96" alt="Signalperch icon"></p>
-
-<h2 align="center">Download</h2>
 
 <p align="center">
 <a href="https://github.com/Kian-hdr/signalperch/releases/download/v0.3.1/Signalperch_0.3.1_arm64.dmg"><img src="docs/assets/downloads/download_1.svg" width="240" height="48" alt="Download for macOS"></a>
